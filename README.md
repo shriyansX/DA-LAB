@@ -1,23 +1,52 @@
 # Data Analytics Lab (DA)
 
-This repo holds Jupyter notebooks for the Data Analytics Lab exercises.
+Hands-on notebooks for exploring Python-based data analytics: cleaning, visualization, and modeling in a Jupyter-first workflow.
 
-## Contents
-- `DA-LAB-1.ipynb`
-- `DA-LAB-2.ipynb`
-- `DA-LAB-3.ipynb`
+## Highlights
+- Jupyter-native workflow for rapid iteration and explanation alongside code.
+- Batteries-included stack: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`.
+- Lightweight setup; no exotic dependencies.
 
-## Getting Started
-1. Install Python 3.11+ and `pip`.
-2. Install Jupyter and common data packages:
-   ```bash
-   pip install jupyter pandas numpy matplotlib seaborn scikit-learn
-   ```
-3. Launch the notebooks:
-   ```bash
-   jupyter notebook
-   ```
+## What’s Inside
+- `DA-LAB-1.ipynb` — Lab notebook (run top-to-bottom or cell-by-cell).
+- `DA-LAB-2.ipynb` — Lab notebook.
+- `DA-LAB-3.ipynb` — Lab notebook.
 
-## Notes
-- Use a virtual environment to keep dependencies isolated.
-- Outputs are not committed; rerun the notebooks after cloning if needed.
+## Quickstart (Windows-friendly)
+1) **Requirements**: Python 3.11+, Git.
+
+2) **Create a virtual environment** (recommended):
+```powershell
+cd "c:\Users\shriy\Desktop\DA LAB"
+python -m venv .venv
+.\.venv\Scripts\activate
+```
+
+3) **Install the usual data stack**:
+```powershell
+pip install --upgrade pip
+pip install jupyter pandas numpy matplotlib seaborn scikit-learn
+```
+
+4) **Launch notebooks**:
+```powershell
+jupyter lab
+# or
+jupyter notebook
+```
+
+## Recommended Workflow
+- Run cells top-to-bottom the first time to populate outputs and checkpoints.
+- Keep raw data outside the repo (or add paths to `.gitignore`) to avoid committing large files.
+- Restart kernel and rerun all cells before sharing to ensure reproducibility.
+- Consider duplicating notebooks for experiments (e.g., `DA-LAB-1-play.ipynb`).
+
+## Troubleshooting
+- Kernel not finding packages: confirm the venv is activated (`.\.venv\Scripts\activate`).
+- Slow plots in Jupyter: close heavy figures or use `%matplotlib inline` instead of interactive backends.
+- Path issues: use forward slashes in notebook paths (`data/file.csv`) to stay cross-platform.
+
+## Next Steps
+- Add brief summaries in each notebook about the dataset and objective.
+- Pin dependencies to a `requirements.txt` when the stack stabilizes.
+- If collaborating, consider enabling Jupyter autosave and Git clean filters for large outputs.
