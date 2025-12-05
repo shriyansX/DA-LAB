@@ -12,6 +12,11 @@ Hands-on notebooks for exploring Python-based data analytics: cleaning, visualiz
 - `DA-LAB-2.ipynb` — Lab notebook.
 - `DA-LAB-3.ipynb` — Lab notebook.
 
+## Lab Exercise Overview
+- **DA-LAB-1**: list indexing/slicing; nested list access; number sign check; even/odd; age check; `for` loops over ranges and collections; `while` loops for countdowns, accumulation, and a sentinel input loop.
+- **DA-LAB-2**: input-driven mini-utilities—sum, swap, square/cube, ASCII code, Celsius→Fahrenheit, simple/compound interest, circle area, km→miles, remainder; conditionals (sign, max-of-three, even/odd, leap year, vowel/consonant); loops for tables, even numbers, sums, factorial; `while` for reversing digits and counting digits.
+- **DA-LAB-3**: currently empty placeholder for upcoming work.
+
 ## Quickstart (Windows-friendly)
 1) **Requirements**: Python 3.11+, Git.
 
