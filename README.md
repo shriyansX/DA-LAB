@@ -18,7 +18,7 @@ Hands-on notebooks for exploring Python-based data analytics: cleaning, visualiz
 ## Lab Exercise Overview
 - **DA-LAB-1**: list indexing/slicing; nested list access; number sign check; even/odd; age check; `for` loops over ranges and collections; `while` loops for countdowns, accumulation, and a sentinel input loop.
 - **DA-LAB-2**: input-driven mini-utilities—sum, swap, square/cube, ASCII code, Celsius→Fahrenheit, simple/compound interest, circle area, km→miles, remainder; conditionals (sign, max-of-three, even/odd, leap year, vowel/consonant); loops for tables, even numbers, sums, factorial; `while` for reversing digits and counting digits.
-- **DA-LAB-3**: currently empty placeholder for upcoming work.
+- **DA-LAB-3**: palindrome & Armstrong number checks; Fibonacci series; GCD & LCM; prime number detection (single range & count in range); sum of even/odd digits; perfect number check; pattern printing (stars & numbers); factors of a number; count digits divisible by 3; sum of squares 1..N.
 
 ## Quickstart (Windows-friendly) ⚡
 1) **Requirements**: Python 3.11+, Git.
